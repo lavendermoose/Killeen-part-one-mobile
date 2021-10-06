@@ -18,6 +18,13 @@ header {
 
 }
 
+ul.no-bullets {
+    list-style-type: none;
+    padding: 0; 
+    margin: 0; 
+  }
+
+
 p {
     text-align: right;
 }
