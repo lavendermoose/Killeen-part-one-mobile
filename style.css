@@ -18,6 +18,11 @@ ul.no-bullets {
     margin: 0; 
   }
 
+  li {
+      display: inline;
+      margin-right: 8px;
+  }
+
   #logo {
       float: left;
   }
@@ -58,6 +63,34 @@ div {
 
 .side-by-side-item {
     width: 50%;
+}
+
+.column1. .column2. .column3. {
+    width: 31.3%;
+    overflow: auto;
+    margin: 1.5em;
+    padding-right: 20em;
+    }
+
+div {
+    width: 20em;
+    display: inline-table;
+    overflow: auto;
+    margin: 3.5%;
+    margin-bottom: 0%;
+    padding: 1%;
+    border: 10%;
+    text-align: center;
+}
+
+img {
+    width: 70%;
+    height: 60%;
+}
+
+#logo {
+    width: 15%;
+    border-top: 0%;
 }
 
 }
